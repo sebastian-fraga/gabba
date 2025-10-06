@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;_cacheOverride=1759272061882" rel="stylesheet">
+    <link rel="icon" href="assets/images/icon.png" type="image/x-icon">
+    <title>OPCIONES | Gabba</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedMode = localStorage.getItem('darkMode');
+            if (savedMode === 'off') {
+                document.body.classList.remove('dark-mode');
+            }
+        });
+    </script>
+</head>
+<body class="settings dark-mode">
+    <main>
+        <section class="settings">
+            <h2>OPCIONES</h2>
+            <div class="settings-wrapper">
+                <label class="settings-item" for="notificationToggle">
+                    <span class="settings-text">Notificaciones</span>
+                    <span class="switch">
+                        <input type="checkbox" id="notificationToggle" />
+                        <span class="slider round" aria-hidden="true"></span>
+                    </span>
+                </label>
+                <div class="settings-item" id="modalBtn">
+                    <div class="settings-item-left">
+                        <span class="settings-text">Modo oscuro</span>
+                    </div>
+                    <span class="settings-arrow material-symbols-rounded">arrow_right</span>
+                </div>
+                <div class="settings-item" id="aboutBtn">
+                    <div class="settings-item-left">
+                        <span class="settings-text">Acerca de</span>
+                    </div>
+                    <span class="settings-arrow material-symbols-rounded">arrow_right</span>
+                </div>
+                <div class="settings-item" onclick="window.open('https://gabbaprivacy.netlify.app')">
+                    <div class="settings-item-left">
+                        <span class="settings-text">Política de privacidad</span>
+                    </div>
+                    <span class="settings-arrow material-symbols-rounded">arrow_right</span>
+                </div>
+                <div class="settings-item"
+                    onclick="window.open('https://play.google.com/store/apps/details?id=com.gabba.app')">
+                    <div class="settings-item-left">
+                        <span class="settings-text">Valorar app</span>
+                    </div>
+                    <span class="settings-arrow material-symbols-rounded">arrow_right</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <aside id="modalPanel" class="modal-panel">
+        <div class="modal-panel-header">
+            <span class="material-symbols-rounded" id="modalClose" aria-label="Cerrar menú">close</span>
+            <h2>Modo oscuro</h2>
+        </div>
+        <div class="modal-panel-content">
+            <div class="dark-mode-buttons">
+                <button class="active">ENCENDIDO</button>
+                <button>APAGADO</button>
+            </div>
+        </div>
+    </aside>
+
+    <aside id="aboutPanel" class="about-panel">
+        <div class="about-panel-header">
+            <span class="material-symbols-rounded" id="aboutClose" aria-label="Cerrar menú">close</span>
+            <h2>Acerca de</h2>
+        </div>
+        <div class="about-panel-content">
+            <p><span style="font-weight: 900;">GABBA</span> es una app de código abierto. Su código fuente puede
+                encontrarse en <a href="https://github.com/sebastian-fraga/gabba">GitHub</a>.</p>
+            <section>
+                <details>
+                    <summary>
+                        <img src="https://img.icons8.com/?size=20&id=33039&format=png&color=000000"
+                            alt="Icono de AWS">Amazon Web Services
+                    </summary>
+                    <p>Esta aplicación utiliza <a href="https://aws.amazon.com/es/s3/" referrerpolicy="no-referrer"
+                            target="_blank">Amazon S3</a>, el servicio de almacenamiento en la nube de <span
+                            style="font-weight: bold;">Amazon Web Services</span> (AWS), para guardar archivos
+                        multimedia de forma segura.</p>
+                </details>
+                <details>
+                    <summary>
+                        <img src="https://img.icons8.com/?size=20&id=WRRjYsSsuhp1&format=png&color=000000"
+                            alt="Icono de Apache Cordova">Apache Cordova
+                    </summary>
+                    <p>Esta aplicación fue desarrollada utilizando <a href="https://cordova.apache.org/"
+                            referrerpolicy="no-referrer" target="_blank">Apache Cordova</a>.</p>
+                </details>
+                <details>
+                    <summary>
+                        <img src="https://img.icons8.com/?size=20&id=62452&format=png&color=000000"
+                            alt="Icono de Firebase">Firebase
+                    </summary>
+                    <p>El sistema de notificaciones push está gestionado por <a href="https://firebase.google.com/"
+                            referrerpolicy="no-referrer" target="_blank">Firebase</a> y su complemento <span
+                            style="font-weight: bold;">Cloud Messaging</span>, servicio de <span
+                            style="font-weight: bold;">Google</span>.</p>
+                </details>
+                <details>
+                    <summary>
+                        <img src="https://img.icons8.com/?size=20&id=uY6QHPV8g5bd&format=png&color=000000"
+                            alt="Icono de Google Fonts">Google Fonts
+                    </summary>
+                    <p>Las fuentes <span style="font-family: Inter;">Inter</span> y <span
+                            style="font-family: Oswald;">Oswald</span>, diseñadas por sus respectivos autores, fueron
+                        proporcionadas por <a href="https://fonts.google.com/" referrerpolicy="no-referrer"
+                            target="_blank">Google Fonts</a>.</p>
+                    <br>
+                    <p>Los iconos de esta app fueron proporcionados por Google Fonts, a través de su colección de <a
+                            href="https://fonts.google.com/icons?icon.set=Material+Symbols"
+                            referrerpolicy="no-referrer">Material Symbols</a>.</p>
+                </details>
+            </section>
+        </div>
+        <div class="about-panel-footer">
+            <p>Aplicación desarrollada por <span style="font-weight: 700;">Sebastián Fraga</span></p>
+            <a href="mailto:fragasebastian1@gmail.com" class="about-panel-footer-link">
+                <span>CONTACTO</span>
+                <span class="material-symbols-rounded">mail</span>
+            </a>
+            <a href="https://github.com/sebastian-fraga" class="about-panel-footer-link">
+                <span>GITHUB</span>
+                <span class="material-symbols-rounded">code</span>
+            </a>
+        </div>
+    </aside>
+
+    <footer>
+        © 2025 FIESTA RAMONA
+    </footer>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="pastevents.html">
+                <span class="material-symbols-rounded">event_repeat</span>
+                <span>Eventos</span>
+            </a>
+            <a href="news.html">
+                <span class="material-symbols-rounded">newspaper</span>
+                <span>Noticias</span>
+            </a>
+            <a href="index.html">
+                <span class="material-symbols-rounded">home
+                </span>
+                <span>Inicio</span>
+            </a>
+            <a href="links.html">
+                <span class="material-symbols-rounded">link</span>
+                <span>Links</span>
+            </a>
+            <a href="#" class="icon-active">
+                <span class="material-symbols-rounded">settings</span>
+                <span>Opciones</span>
+            </a>
+        </div>
+    </nav>
+    <script src="js/settings.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script>
+        const notificationToggle = document.getElementById('notificationToggle');
+        if (notificationToggle) {
+            const notificationsDisabled = localStorage.getItem('notificationsDisabled') === 'true';
+            notificationToggle.checked = !notificationsDisabled;
+
+            notificationToggle.addEventListener('change', () => {
+                const isEnabled = notificationToggle.checked;
+                localStorage.setItem('notificationsDisabled', isEnabled ? 'false' : 'true');
+                if (window.FirebasePlugin) {
+                    if (isEnabled) {
+                        FirebasePlugin.subscribe('general');
+                    } else {
+                        FirebasePlugin.unsubscribe('general');
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
