@@ -23,3 +23,10 @@ modalClose.addEventListener('click', () => {
     modalPanel.classList.remove('open');
     modalBtn.classList.remove('open');
 });
+
+document.addEventListener("click", function (event) {
+    if (!modalPanel.contains(event.target) && !modalBtn.contains(event.target)) {
+    modalPanel.classList.remove("open");
+    modalBtn.classList.remove("open");
+    }
+})

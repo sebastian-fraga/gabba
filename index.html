@@ -370,85 +370,70 @@ document.addEventListener('DOMContentLoaded', cargarProgramas);
     <script>
       async function cargarEventos() {
     try {
-        // ✅ Agregamos el "=" que faltaba en la URL
         const response = await fetch('https://gabbaapp.s3.us-east-1.amazonaws.com/eventos.json?t=' + Date.now());
 
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
-        // ✅ Parseamos la respuesta JSON
         const eventos = await response.json();
 
         const container = document.getElementById('event-container');
-        container.innerHTML = ''; // Limpiamos por si acaso
+        container.innerHTML = ''; 
 
-        // ✅ Si no hay eventos, mostramos mensaje
         if (!Array.isArray(eventos) || eventos.length === 0) {
             mostrarMensajeVacio(container);
             return;
         }
 
-        // ✅ Recorremos y cargamos cada evento
         eventos.forEach(evento => {
             const item = document.createElement('div');
             item.classList.add('event-item');
 
+            const titulo = document.createElement('div');
+            titulo.classList.add('event-title');
+            titulo.textContent = evento.titulo;
+
+            const flyer = document.createElement('div');
+            flyer.classList.add('event-flyer');
             const imagen = document.createElement('img');
             imagen.src = evento.imagen;
             imagen.alt = evento.titulo;
             imagen.style.cursor = "pointer";
 
-            imagen.addEventListener('click', () => {
-                const overlay = document.getElementById('imageOverlay');
-                const overlayImg = document.getElementById('overlayImg');
-                overlayImg.src = evento.imagen;
-                overlay.style.display = 'flex';
-            });
+            flyer.appendChild(imagen);
 
             const info = document.createElement('div');
             info.classList.add('event-info');
             info.innerHTML = `
-                <div class="event-title">${evento.titulo}</div>
-                <div class="event-date">${evento.fecha}, ${evento.hora}</div>
-                <div class="event-location">
-                    <a href="${evento.ubicacion}" target="_blank">
-                        <span class="material-symbols-rounded">location_on</span>
-                    </a>
-                    ${evento.lugar}
-                </div>
-            `;
+              <div class="event-date">${evento.fecha}, ${evento.hora}</div>
+              <div class="event-location">
+                <a href="${evento.ubicacion}" target="_blank">
+                  <span class="material-symbols-rounded">location_on</span>
+                </a>
+                ${evento.lugar}
+              </div>
+          `;
+          
+          const body = document.createElement('div');
+          body.classList.add('event-body');
+          body.appendChild(flyer);
+          body.appendChild(info);
 
-            const boton = document.createElement('a');
-            boton.href = evento.link_compra;
-            boton.classList.add('event-button');
-            boton.target = "_blank";
-            boton.innerText = evento.texto_boton || "COMPRAR ENTRADAS";
+          const boton = document.createElement('a');
+          boton.href = evento.link_compra;
+          boton.classList.add('event-button');
+          boton.target = "_blank";
+          boton.innerText = evento.texto_boton || "COMPRAR ENTRADAS";
 
-            // ✅ Estructura completa dentro de cada item
-            item.appendChild(imagen);
-            item.appendChild(info);
-            item.appendChild(boton);
+          item.appendChild(titulo);
+          item.appendChild(body);
+          item.appendChild(boton);
 
-            container.appendChild(item);
-        });
+          container.appendChild(item);
+      });
 
-        // ✅ Configuramos overlay
-        const overlay = document.getElementById('imageOverlay');
-        const overlayImg = document.getElementById('overlayImg');
-        const closeBtn = document.getElementById('closeBtn');
 
-        closeBtn.addEventListener('click', () => {
-            overlay.style.display = 'none';
-            overlayImg.src = '';
-        });
-
-        overlay.addEventListener('click', (e) => {
-            if (e.target === overlay) {
-                overlay.style.display = 'none';
-                overlayImg.src = '';
-            }
-        });
 
     } catch (error) {
         console.error('Error cargando eventos:', error);
@@ -457,7 +442,6 @@ document.addEventListener('DOMContentLoaded', cargarProgramas);
     }
 }
 
-// ✅ Función reutilizable para mostrar mensaje vacío
 function mostrarMensajeVacio(container) {
     container.innerHTML = '';
     const mensaje = document.createElement('div');
@@ -472,7 +456,6 @@ function mostrarMensajeVacio(container) {
     container.appendChild(mensaje);
 }
 
-// ✅ Ejecutar cuando cargue el DOM
 document.addEventListener('DOMContentLoaded', cargarEventos);
     </script>
     <script src="js/overlay.js"></script>
