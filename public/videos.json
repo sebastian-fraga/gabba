@@ -1,0 +1,52 @@
+[
+  {
+    "titulo": "SHAILA EN OBRAS",
+    "url": "https://youtu.be/gclcc8BlvfU",
+    "duracion": "10:34",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/videos/v7.webp",
+    "etiquetas": "cobertura"
+  },
+  {
+    "titulo": "COBERTURA EN GROOVE PALERMO",
+    "url": "https://youtu.be/GzZ211X8hP4",
+    "duracion": "16:28",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/videos/v6.webp",
+    "etiquetas": "cobertura",
+    "destacado": true
+  },
+  {
+    "titulo": "NOVEDAD: Llegó la app de Gabba! 👽",
+    "url": "https://youtu.be/Ustf5tdFGQk",
+    "duracion": "1:20",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/videos/v5.webp"
+  },
+  {
+    "titulo": "ROCK EN FAMILIA EN VORTERIX",
+    "url": "https://youtu.be/QSXhyu3KFMU",
+    "duracion": "13:25",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/videos/v4.webp",
+    "etiquetas": "cobertura"
+  },
+  {
+    "titulo": "VIDEO RESUMEN GABBA GABBA FEST 24/5 EN SALÓN PUEYRREDÓN",
+    "url": "https://youtu.be/r6jsivTVwK0",
+    "duracion": "3:14",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/videos/v3.webp",
+    "etiquetas": "resumen"
+  },
+  {
+    "titulo": "NASTY NEIGHBOURS EN CLUB LUCILLE",
+    "url": "https://youtu.be/OH4q75_5B98",
+    "duracion": "4:08",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/videos/v2.webp",
+    "etiquetas": "cobertura"
+  },
+  {
+    "titulo": "MARKY RAMONE EN FLORES",
+    "url": "https://youtu.be/FYzzz0UvClc",
+    "duracion": "11:39",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/videos/v1.webp",
+    "etiquetas": "cobertura",
+    "destacado": true
+  }
+]

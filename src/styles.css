@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+:root {
+    --text-green: #AFFC41;
+}
+
+body {
+    font-family: "Inter";
+    background:
+        radial-gradient(circle 70vw at top, rgba(13, 255, 0, 0.298), transparent),
+        linear-gradient(135deg, rgb(14, 48, 7), rgb(0, 0, 0));
+    overflow-x: hidden;
+    min-height: 100vh;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+.material-symbols-rounded {
+    font-size: 32px;
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.carousel-image {
+    anchor-name: --carousel-image;
+}
+
+.carousel-badge {
+    position-anchor:
+        --carousel-image;
+    bottom:
+        calc(anchor(bottom) + 8px);
+    right:
+        calc(anchor(right) + 8px);
+}
+
+.video-scroll::-webkit-scrollbar {
+    height: 12px;
+    border-radius: 20px;
+    background: rgba(185, 184, 184, 0.154);
+}
+
+.video-scroll::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #1ef812;
+}
+
+
+.link:nth-child(1):active {
+    background: var(--color-neutral-600);
+}
+
+.link:nth-child(2):active {
+    background: linear-gradient(to bottom, #743CE2, #C8309C, #DF3D54, #EDB942);
+}
+
+.link:nth-child(3):active {
+    background: linear-gradient(to right, #25F4EE, #FE2C55);
+
+    & * {
+        color: black;
+        filter: invert(1);
+    }
+}
+
+.link:nth-child(4):active {
+    background: #FF0000;
+}
+
+.link:nth-child(5):active {
+    background: linear-gradient(to bottom, #1ED760, #10883a);
+
+    & * {
+        color: black;
+        filter: invert(1);
+    }
+}
+
+.link:nth-child(6):active {
+    background: #25D366;
+    color: black;
+
+    & * {
+        filter: invert(1);
+        color: black;
+    }
+}
+
+.link:nth-child(7):active {
+    background: #42E661;
+
+    & * {
+        filter: invert(1);
+        color: black;
+    }
+}

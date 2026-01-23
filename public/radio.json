@@ -1,0 +1,437 @@
+[
+  {
+    "titulo": "Gabba Gabba Live #26 - Entrevista a Gatos Negros",
+    "url": "https://youtu.be/bOpJuqjvNcc",
+    "duracion": "53:05",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/26.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "titulo": "Gabba Gabba Live #25 con En Bajada - Especial Navidad",
+    "url": "https://www.youtube.com/watch?v=BnDx_UuRdig",
+    "duracion": "53:39",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/25.webp",
+    "etiquetas": "especial live"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #24 - Entrevista a 1943 Ezpeleta Records",
+    "url": "https://www.youtube.com/watch?v=sn_2wNENGdM",
+    "duracion": "46:22",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/24.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #23 - Entrevista a Thompsons",
+    "url": "https://youtu.be/A2Dv-zvNFSw",
+    "duracion": "42:19",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/23.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "titulo": "Gabba Gabba Live #22 con Los Encendedores",
+    "url": "https://youtu.be/HiMcrGYRzho",
+    "duracion": "1:05:41",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/22.webp",
+    "etiquetas": "live",
+    "destacado": true
+  },
+  {
+    "titulo": "Gabba Gabba Radio #21 - Entrevista a Cabe (En Bajada)",
+    "url": "https://youtu.be/e2DSv30S9Ws",
+    "duracion": "34:49",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/21.webp"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #20 - Entrevista a Las Vin Up",
+    "url": "https://youtu.be/ZBYat05N7L4",
+    "duracion": "53:52",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/20.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #19 - Especial Halloween con Opuestos",
+    "url": "https://youtu.be/NC8OL73PYa8",
+    "duracion": "50:00",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/19.webp",
+    "etiquetas": "acustico especial"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #18 - Entrevistas a Superpuestos, L.U.D.S. y Sonia",
+    "url": "https://youtu.be/dbmkB6JfBlU",
+    "duracion": "1:00:14",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/18.webp"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #17 - Entrevista a Gero and the Happy Family",
+    "url": "https://youtu.be/VoqW1vtaUsA",
+    "duracion": "48:06",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/17.webp"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #16 - Entrevista a Fieles",
+    "url": "https://youtu.be/Vgc6Dp1e6eY",
+    "duracion": "45:59",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/16.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #15 - Vuelve GGR! Entrevistas a Juliette Ramone y Juan (Perros de Marte)",
+    "url": "https://youtu.be/DWv9ngVYrGQ",
+    "duracion": "58:44",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/15.webp",
+    "etiquetas": "especial",
+    "destacado": true
+  },
+  {
+    "titulo": "Gabba Gabba Live #14 con Superuva",
+    "url": "https://youtu.be/uyOOhsPpIdg",
+    "duracion": "1:01:58",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/14.webp",
+    "etiquetas": "live"
+  },
+  {
+    "titulo": "Gabba Gabba Live #13 con Siempre Igual",
+    "url": "https://youtu.be/lkLKobc53g8",
+    "duracion": "1:00:12",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/13.webp",
+    "etiquetas": "live"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #12 - Entrevista a Franco de Cerebros Ausentes",
+    "url": "https://youtu.be/-IiRNcL22V4",
+    "duracion": "47:28",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/12.webp"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #11 - Entrevista y acústico de Juan Novoa",
+    "url": "https://youtu.be/gvozWvuZ2w4",
+    "duracion": "51:08",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/11.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #10 - Entrevista a SDEFECTO",
+    "url": "https://youtu.be/f56-BCg3HtE",
+    "duracion": "57:59",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/10.webp"
+  },
+  {
+    "titulo": "Gabba Gabba Live #9 con The Razones",
+    "url": "https://www.youtube.com/watch?v=tPcalpn38O4",
+    "duracion": "55:18",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/9.webp",
+    "etiquetas": "live",
+    "destacado": true
+  },
+  {
+    "titulo": "Gabba Gabba Radio #8 - Entrevista a Justo (Eurocrimen)",
+    "url": "https://youtube.com/live/6hExUj0HiqM",
+    "duracion": "44:19",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/8.webp"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #7 - Entrevista a Sonia y Juliette Ramone",
+    "url": "https://www.youtube.com/watch?v=yRTJLUb91RE",
+    "duracion": "44:42",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/7.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #6 - Entrevista a Tenaz",
+    "url": "https://youtu.be/iJJu9qNHk2Y",
+    "duracion": "55:15",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/6.webp"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #5 - Entrevista a Siempre Igual",
+    "url": "https://youtu.be/Y6aL5gtvo5A",
+    "duracion": "50:38",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/5.webp"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #4 - Entrevista a Thompsons",
+    "url": "https://www.youtube.com/watch?v=fJsoKItWSkU",
+    "duracion": "55:11",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/4.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "titulo": "Gabba Gabba Live #3 con Romanes",
+    "url": "https://www.youtube.com/watch?v=EGpGQs6Xgj0",
+    "duracion": "51:05",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/3.webp",
+    "etiquetas": "live",
+    "destacado": true
+  },
+  {
+    "titulo": "Gabba Gabba Radio #2 - Entrevista a Sebastián (Expulsados)",
+    "url": "https://www.youtube.com/watch?v=xZnzFriR5EI",
+    "duracion": "58:05",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/2.webp"
+  },
+  {
+    "titulo": "Gabba Gabba Radio #1 - Entrevista a Yamandú (Loquero)",
+    "url": "https://www.youtube.com/watch?v=YJaJG2ymTJI",
+    "duracion": "56:39",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/1.webp",
+    "etiquetas": "especial"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #35 - Último programa del año",
+    "url": "https://www.youtube.com/watch?v=wBs-aaZdEy8",
+    "duracion": "55:18",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-35.webp",
+    "etiquetas": "especial acustico"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #34 - Entrevista a Ariel (Inolvidable)",
+    "url": "https://www.youtube.com/watch?v=cxartA-fm5g",
+    "duracion": "59:14",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-34.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #33 - Entrevista a Hernán (Billy the Kid)",
+    "url": "https://www.youtube.com/watch?v=KokU2wTcZP4",
+    "duracion": "52:35",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-33.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #32 - Entrevista a Infancia",
+    "url": "https://www.youtube.com/watch?v=DByBWyA62Po",
+    "duracion": "55:47",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-32.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #31 - Entrevista a Marko (Mensaka)",
+    "url": "https://www.youtube.com/watch?v=1f7Iy8D3FjY",
+    "duracion": "55:25",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-31.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #30 - Entrevista a Juan Novoa",
+    "url": "https://www.youtube.com/watch?v=Lfda0CweXPU",
+    "duracion": "59:33",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-30.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #29 - Entrevista a Juan (Katarro Vandáliko)",
+    "url": "https://www.youtube.com/watch?v=cm2ViNfXd8M",
+    "duracion": "52:07",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-29.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #28 - Entrevista a Pablo (The Razones)",
+    "url": "https://www.youtube.com/watch?v=Qq8HDGvCyMw",
+    "duracion": "1:00:06",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-28.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #27 - Entrevista a Outsiders",
+    "url": "https://www.youtube.com/watch?v=CzuOODxHOcw",
+    "duracion": "55:19",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-27.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #26 - Entrevista a Los Campeones del Bardo",
+    "url": "https://youtube.com/live/dznrCUFSlb8",
+    "duracion": "58:47",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-26.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #25 - Entrevista a Nasty Neighbours",
+    "url": "https://youtube.com/live/fY_2WMSOBXg",
+    "duracion": "56:48",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-25.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #24 - Entrevista a Leandro en Solitario",
+    "url": "https://youtube.com/live/F_5IAAGybPE",
+    "duracion": "58:47",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-24.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #23 - Entrevista a Asesinos Cereales",
+    "url": "https://youtube.com/live/8xaKRM9J9B8",
+    "duracion": "58:51",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-23.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #22 - Entrevista a Julián (Baladas Ramoneras)",
+    "url": "https://youtube.com/live/fiNkARmcyAg",
+    "duracion": "54:38",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-22.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #21 - Entrevista a Ernesto Anzoategui",
+    "url": "https://youtube.com/live/nLd-4IdoMn8",
+    "duracion": "52:41",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-21.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #20 - Especial por los 20 programas",
+    "url": "https://youtube.com/live/95hL5k79FRw",
+    "duracion": "58:52",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-20.webp",
+    "etiquetas": "especial"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #19 - Entrevista a Sonia Chammah",
+    "url": "https://youtube.com/live/S5-KYEeHsHI",
+    "duracion": "52:29",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-19.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #18 - Entrevista a Sin Futuro",
+    "url": "https://youtube.com/live/Ex7wSzlKrUU",
+    "duracion": "49:14",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-18.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #17 - Entrevista a Perros de Marte",
+    "url": "https://youtube.com/live/bNelLMnh_wo",
+    "duracion": "54:43",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-17.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #16 - Entrevista a The Razones",
+    "url": "https://youtube.com/live/2d66ak1ihDo",
+    "duracion": "57:08",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-16.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #15 - Entrevista a Chino Vera",
+    "url": "https://youtube.com/live/tIqsJcc4keY",
+    "duracion": "1:00:52",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-15.webp"
+  },
+{
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #14 - Entrevista a Nico Andreu (Quebraditos)",
+    "url": "https://youtube.com/live/tXlaNUqTBI0",
+    "duracion": "1:02:11",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-14.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #13 - Entrevista a Libres de Pecados",
+    "url": "https://youtube.com/live/9zQcYEAJOLw",
+    "duracion": "55:48",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-13.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #12 - Trivia con premios",
+    "url": "https://youtube.com/live/X5rvFIbZ_80",
+    "duracion": "57:41",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-12.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #11 - Entrevista a Juan Monchone & los Deltisona",
+    "url": "https://youtube.com/live/4bFIxe5dJ9I",
+    "duracion": "55:13",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-11.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #10 - Entrevista a WillNoName",
+    "url": "https://youtube.com/live/ZRIp_qrWyag",
+    "duracion": "59:23",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-10.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #9 - Novedades de la próxima Gabba Gabba Fest",
+    "url": "https://youtube.com/live/QoIAc0aMJCE",
+    "duracion": "57:09",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-9.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #8 - Entrevista a Andrés Violante",
+    "url": "https://youtube.com/live/wXqAsPfjhQQ",
+    "duracion": "55:05",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-8.webp",
+    "etiquetas": "especial"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #7 - Novedades de la próxima Gabba Gabba Fest",
+    "url": "https://youtube.com/live/zsOyFX1DFb0",
+    "duracion": "56:43",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-7.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #6 - Entrevista a Danger Zone (banda tributo a Ramones)",
+    "url": "https://youtube.com/live/Moc59I4C-VE",
+    "duracion": "54:26",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-6.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #5 - Entrevista a Chipo (Pick Palos)",
+    "url": "https://youtube.com/live/tKmPzpgSr0I",
+    "duracion": "58:41",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-5.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #4 - Entrevista a Mojones + Nuevo EP de Perros de Marte",
+    "url": "https://youtube.com/live/vG8IAANVLWw",
+    "duracion": "56:25",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-4.webp"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #3 - Especial 50 años de los Ramones",
+    "url": "https://youtube.com/live/DpKaA8lm8io",
+    "duracion": "55:16",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-3.webp",
+    "etiquetas": "especial"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Entrevista a Darío (Adrenalina) y Diego y Mauro (Volvió la alegría, vieja!)",
+    "url": "https://www.youtube.com/live/n-pzTHsNLFk",
+    "duracion": "51:11",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-2.webp",
+    "etiquetas": "acustico"
+  },
+  {
+    "temporada": 1,
+    "titulo": "Gabba Gabba Radio #1 - Primer programa del año",
+    "url": "https://youtube.com/live/9hGQnLRMKd0",
+    "duracion": "42:01",
+    "imagen": "https://gabbaapp.s3.us-east-1.amazonaws.com/assets/radio/T1-1.webp",
+    "etiquetas": "especial"
+  }
+]
