@@ -4,7 +4,7 @@ import Form from '../images/form.svg'
 import Instagram from '../images/instagram.svg'
 import TikTok from '../images/tiktok.svg'
 import YouTube from '../images/youtube.svg'
-import Spotify from '../images/Spotify.svg'
+import Spotify from '../images/spotify.svg'
 import WhatsApp from '../images/whatsapp.svg'
 import Linktree from '../images/linktree.svg'
 
