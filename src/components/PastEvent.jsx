@@ -8,9 +8,9 @@ import 'swiper/css/pagination';
 function PastEvent({ imagen, lugar, fecha, nombre, descripcion, videoResumen, galeria, creditos }) {
 
     return (
-        <article className="rounded-2xl flex flex-col w-full max-w-md bg-lime-50/95 p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <article className="rounded-2xl flex flex-col w-90 max-w-md bg-lime-50/95 p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
 
-            <div className="relative overflow-hidden rounded-xl mb-4 shadow-md">
+            <div className="relative overflow-hidden rounded-xl mb-4 shadow-lg shadow-black">
                 <img
                     className="w-full h-auto object-cover"
                     src={imagen}
@@ -61,14 +61,14 @@ function PastEvent({ imagen, lugar, fecha, nombre, descripcion, videoResumen, ga
                     <Swiper
                         spaceBetween={12}
                         slidesPerView={1.3}
-                        className="w-full h-48 mt-4"
+                        className="w-full h-48 mt-4 bg-lime-300/30"
                     >
                         {galeria.map((img, index) => (
                             <SwiperSlide key={index}>
                                 <img
                                     src={img}
                                     alt={`Imagen ${index + 1} de ${nombre}`}
-                                    className="w-full h-full object-cover rounded-xl"
+                                    className="w-full h-full object-cover rounded-2xl p-2"
                                     loading="lazy"
                                 />
                             </SwiperSlide>

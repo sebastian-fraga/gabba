@@ -1,5 +1,16 @@
 
 function LiveEvent({ data }) {
+    if (!data || data.length === 0) {
+        return (
+            <div className="text-neutral-300 text-center py-10 text-lg text-balance flex flex-col gap-7">
+                <p>
+                    No hay eventos actualmente. Seguinos en <a className="text-lime-300" href="" rel="noopener noreferrer" target="_blank"> Instagram</a> para enterarte de cuando haya nuevas fechas
+                </p>
+                <p className="text-2xl">👽🤘</p>
+            </div>
+        )
+    }
+
     return (
         <section className="index flex flex-col px-5 py-9 rounded-2xl bg-lime-400/10 border-2 border-lime-300/30">
             <h2 className="text-4xl font-bold mb-3 text-(--text-green)">PRÓXIMAS FECHAS</h2>
