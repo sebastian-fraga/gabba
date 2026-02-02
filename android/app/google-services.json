@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421995865958",
+    "project_id": "gabba-64c98",
+    "storage_bucket": "gabba-64c98.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421995865958:android:33d6d20a0ead4f366a4aa7",
+        "android_client_info": {
+          "package_name": "com.gabba.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5y7lGTibFyFbin3eC0qbnmRYL2kBNIO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
