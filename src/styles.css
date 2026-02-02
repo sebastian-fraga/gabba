@@ -2,15 +2,42 @@
 
 @import "tailwindcss";
 
-:root {
-    --text-green: #AFFC41;
+:root.dark-theme {
+    --bg: radial-gradient(circle 70vw at top, rgba(13, 255, 0, 0.298), transparent),
+        linear-gradient(135deg, rgb(14, 48, 7), rgb(0, 0, 0));
+    --main-title: #AFFC41;
+    --main-text: #f8fafc;
+    --footer-text: #efefef44;
+    --secondary-text: #171717;
+    --nav-bg-from: #000000bf;
+    --nav-bg-to: #000000;
+    --nav-active: #fff;
+    --nav-active-shadow: 0 0 6px #ffffffb3;
+    --carousel-bg: #99e6001a;
+    --carousel-border: #bbf45155;
+    --carousel-search: #d8f999;
 }
+
+:root.light-theme {
+    --bg: radial-gradient(circle 70vw at top, #F9F9F9, transparent),
+        linear-gradient(135deg, rgb(245, 255, 243), rgb(201, 196, 196));
+    --main-title: #5ea500;
+    --main-text: #171717;
+    --footer-text: #2525255d;
+    --secondary-text: #f8fafc;
+    --nav-bg-from: #e4dfdf80;
+    --nav-bg-to: #e4dfdf;
+    --nav-active: #000;
+    --nav-active-shadow: 0 0 6px rgba(0, 0, 0, 0.395);
+    --carousel-bg: rgba(153, 230, 0, 0.4);
+    --carousel-border: rgba(153, 230, 0, 0.7);
+    --carousel-search: rgb(247, 254, 231);
+}
+
 
 body {
     font-family: "Inter";
-    background:
-        radial-gradient(circle 70vw at top, rgba(13, 255, 0, 0.298), transparent),
-        linear-gradient(135deg, rgb(14, 48, 7), rgb(0, 0, 0));
+    background: var(--bg);
     overflow-x: hidden;
     min-height: 100vh;
     -webkit-tap-highlight-color: transparent;
@@ -26,6 +53,7 @@ body {
         'GRAD' 0,
         'opsz' 24
 }
+
 .material-symbols-rounded.unfilled {
     font-size: 22px;
     font-variation-settings:
@@ -34,40 +62,42 @@ body {
         'GRAD' 0,
         'opsz' 24
 }
-.carousel-image {
-    anchor-name: --carousel-image;
-}
-
-.carousel-badge {
-    position-anchor:
-        --carousel-image;
-    bottom:
-        calc(anchor(bottom) + 8px);
-    right:
-        calc(anchor(right) + 8px);
-}
 
 .video-scroll::-webkit-scrollbar {
     height: 12px;
     border-radius: 20px;
     background: rgba(185, 184, 184, 0.154);
+    cursor: grab;
+}
+
+.video-scroll::-webkit-scrollbar:active {
+    cursor: grabbing;
 }
 
 .video-scroll::-webkit-scrollbar-thumb {
     border-radius: 20px;
-    background: #1ef812;
+    background: var(--main-title);
+    transition: background 0.2s;
+    cursor: grab;
 }
 
+.video-scroll::-webkit-scrollbar-thumb:active {
+    background: #0c9b05;
+    cursor: grabbing;
+}
 
-.link:nth-child(1):active, .link:nth-child(1):hover {
+.link:nth-child(1):active,
+.link:nth-child(1):hover {
     background: var(--color-neutral-600);
 }
 
-.link:nth-child(2):active, .link:nth-child(2):hover {
+.link:nth-child(2):active,
+.link:nth-child(2):hover {
     background: linear-gradient(to bottom, #743CE2, #C8309C, #DF3D54, #EDB942);
 }
 
-.link:nth-child(3):active, .link:nth-child(3):hover {
+.link:nth-child(3):active,
+.link:nth-child(3):hover {
     background: linear-gradient(to right, #25F4EE, #FE2C55);
 
     & * {
@@ -76,11 +106,13 @@ body {
     }
 }
 
-.link:nth-child(4):active, .link:nth-child(4):hover {
+.link:nth-child(4):active,
+.link:nth-child(4):hover {
     background: #FF0000;
 }
 
-.link:nth-child(5):active, .link:nth-child(5):hover {
+.link:nth-child(5):active,
+.link:nth-child(5):hover {
     background: linear-gradient(to bottom, #1ED760, #10883a);
 
     & * {
@@ -89,7 +121,8 @@ body {
     }
 }
 
-.link:nth-child(6):active, .link:nth-child(6):hover {
+.link:nth-child(6):active,
+.link:nth-child(6):hover {
     background: #25D366;
     color: black;
 
@@ -99,11 +132,41 @@ body {
     }
 }
 
-.link:nth-child(7):active, .link:nth-child(7):hover {
+.link:nth-child(7):active,
+.link:nth-child(7):hover {
     background: #42E661;
 
     & * {
         filter: invert(1);
         color: black;
     }
+}
+
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animate-slideUp {
+    animation: slideUp 0.3s ease-out forwards;
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.3s ease-out forwards;
 }

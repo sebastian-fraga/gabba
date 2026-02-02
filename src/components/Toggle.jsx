@@ -1,11 +1,23 @@
-function Toggle({ value, onChange }) {
+import { useState, useEffect } from 'react';
+
+function Toggle() {
+
+    const [isEnabled, setIsEnabled] = useState(() => {
+        const saved = localStorage.getItem('notificationsEnabled');
+        return saved === null ? true : saved === 'true';
+    });
+
+    useEffect(() => {
+        localStorage.setItem('notificationsEnabled', isEnabled);
+    }, [isEnabled]);
+
     return (
         <label className="relative inline-flex items-center cursor-pointer">
             <input
                 type="checkbox"
                 className="sr-only peer"
-                checked={value}
-                onChange={() => onChange(!value)}
+                checked={isEnabled}
+                onChange={() => setIsEnabled(!isEnabled)}
             />
 
             <div className="relative w-11 h-6 bg-neutral-400 rounded-full transition-colors peer-checked:bg-lime-600">

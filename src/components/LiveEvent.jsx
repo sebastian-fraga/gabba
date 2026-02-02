@@ -1,19 +1,37 @@
+import { useTranslation } from 'react-i18next';
+import { Trans } from "react-i18next";
 
 function LiveEvent({ data }) {
+    const { t } = useTranslation();
+
     if (!data || data.length === 0) {
         return (
-            <div className="text-neutral-300 text-center py-10 text-lg text-balance flex flex-col gap-7">
+            <div className="text-(--main-text) text-center py-10 text-lg text-balance flex flex-col gap-7">
                 <p>
-                    No hay eventos actualmente. Seguinos en <a className="text-lime-300" href="" rel="noopener noreferrer" target="_blank"> Instagram</a> para enterarte de cuando haya nuevas fechas
+                    <Trans
+                        i18nKey="home.noevent"
+                        components={{
+                            1: (
+                                <a
+                                    href="https://instagram.com/gabba.gabba.fest"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-(--main-title)"
+                                />
+                            )
+                        }}
+                    />
                 </p>
+
                 <p className="text-2xl">👽🤘</p>
             </div>
-        )
+        );
     }
+
 
     return (
         <section className="index flex flex-col px-5 py-9 rounded-2xl bg-lime-400/10 border-2 border-lime-300/30">
-            <h2 className="text-4xl font-bold mb-3 text-(--text-green)">PRÓXIMAS FECHAS</h2>
+            <h2 className="text-4xl font-bold mb-3 text-(--main-title)">{t('home.event-title')}</h2>
             {data.map((event, index) => (
                 <div className="flex flex-col items-center mt-6 gap-9 text-slate-50" key={index}>
                     <h3 className="font-black text-2xl text-center">{event.titulo}</h3>
@@ -38,7 +56,7 @@ function LiveEvent({ data }) {
                             confirmation_number
                         </span>
                         <span className="animate-pulse">
-                            COMPRAR ENTRADAS
+                            {t('home.event-button')}
                         </span>
                     </a>
                 </div>
