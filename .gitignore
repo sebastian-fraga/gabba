@@ -19,7 +19,6 @@ android/app/release
 android/app/google-services.json
 android/local.properties
 resources
-public
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
