@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+
 import SocialLink from '../components/SocialLink.jsx'
 
 import Form from '../images/form.svg'
@@ -10,12 +12,14 @@ import Linktree from '../images/linktree.svg'
 
 function Links() {
 
+    const { t } = useTranslation();
+
     const links = [
         {
             href: "https://gabbagabbaradio.netlify.app/contacto.html",
             img: Form,
-            name: "Formulario",
-            user: "Vení al programa con tu banda!"
+            name: t('links.form.title'),
+            user: t('links.form.desc')
         },
         {
             href: "https://www.instagram.com/gabba.gabba.fest",
@@ -45,19 +49,19 @@ function Links() {
             href: "https://www.whatsapp.com/channel/0029Vb0gqPdCRs1w6oI01i3E",
             img: WhatsApp,
             name: "WhatsApp",
-            user: "Seguinos en nuestro canal!"
+            user: t('links.whatsapp')
         },
         {
             href: "https://linktr.ee/gabbagabbaradio",
             img: Linktree,
             name: "Linktree",
-            user: "Todas nuestras redes"
+            user: t('links.linktree')
         },
     ]
     return (
         <main className="flex flex-col justify-between gap-50 mx-1.5 h-full pb-50">
             <header className="flex justify-center gap-4 items-center w-full mt-12">
-                <h2 className="text-(--text-green) text-4xl font-semibold">LINKS DE GABBA</h2>
+                <h2 className="text-(--main-title) text-4xl font-semibold">{t('links.title')}</h2>
             </header>
             <section className="grid grid-cols-2 grid-rows-4 gap-2">
                 {links.map((link, index) => (

@@ -1,0 +1,56 @@
+{
+    "footer": {
+        "events": "Events",
+        "sponsors": "Sponsors",
+        "home": "Home",
+        "links": "Links",
+        "settings": "Settings"
+    },
+    "events": {
+        "title": "LATEST EVENTS"
+    },
+    "sponsors": {
+        "title": "OUR SPONSORS",
+        "description": "The Gabba Gabba Radio project, Gabba Gabba Fest, and the Gabba app are partly sustained thanks to the support of:",
+        "contact": "If you'd like to join as a sponsor, <1>contact us by email</1> for more information."
+    },
+    "home": {
+        "shows": "SHOWS",
+        "search": "Search...",
+        "acoustic": "Acoustic",
+        "special": "Special",
+        "coverage": "Coverage",
+        "recap": "Recap",
+        "event-title": "UPCOMING EVENTS",
+        "event-button": "GET TICKETS",
+        "noevent": "No events at the moment. Follow us on <1>Instagram</1> to stay updated on upcoming events."
+    },
+    "links": {
+        "title": "GABBA LINKS",
+        "form": {
+            "title": "Form",
+            "desc": "Come to the radio with your band! (Argentina only)"
+        },
+        "whatsapp": "Follow us on our WhatsApp channel!",
+        "linktree": "Our Socials"
+    },
+    "settings": {
+        "title": "SETTINGS",
+        "preferences": "Preferences",
+        "notifications": "Notifications",
+        "language": "Language",
+        "spanish": "Español",
+        "english": "English",
+        "theme": "Theme",
+        "dark": "Dark",
+        "light": "Light",
+        "application": "App",
+        "about-version": "Version",
+        "about-developed": "Developed and maintained by",
+        "about-contact": "CONTACT",
+        "about": "About",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Use",
+        "rate": "Rate App"
+    }
+}
