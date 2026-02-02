@@ -1,16 +1,29 @@
-# React + Vite
+# Gabba
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div>
+  <p align="center">
+    <img src="public/Gabba.png" width="800"> 
+  </p>
+</div>
 
-Currently, two official plugins are available:
+**Gabba** is a mobile application developed with React + Vite and packaged as a native app using Capacitor. It is designed to promote events and content related to Fiesta Ramona.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+<div align="center">
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff)](#)
+[![Ionic](https://img.shields.io/badge/Ionic-3880FF?logo=ionic&logoColor=white)](#)
+[![Firebase](https://img.shields.io/badge/Firebase-039BE5?logo=Firebase&logoColor=white)](#)
+[![AWS](https://custom-icon-badges.demolab.com/badge/AWS-%23FF9900.svg?logo=aws&logoColor=white)](#)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<div style="margin-top: 80px">
+    <p align="center">
+        <a href="https://play.google.com/store/apps/details?id=com.gabba.app">
+            <img src="public/googleplay.png" width="300">
+        </a> 
+  </p>
+</div>
