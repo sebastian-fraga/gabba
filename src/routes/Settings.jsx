@@ -106,7 +106,7 @@ function About() {
         <div className="flex flex-col gap-5">
             <div className="flex flex-col">
                 <h1 className="text-lg">Gabba - App Ramonera</h1>
-                <span className="text-sm">{t('settings.about-version')} 3.0.0</span>
+                <span className="text-sm">{t('settings.about-version')} 3.0.1</span>
             </div>
             <div className="flex flex-col">
                 <h1>{t('settings.about-developed')} Sebastián Fraga</h1>

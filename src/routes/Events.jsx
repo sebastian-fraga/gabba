@@ -17,7 +17,7 @@ function Events() {
             .catch(err => console.error("events error", err))
     }, [])
     return (
-        <main className="flex flex-col justify-between items-center gap-20 mx-1.5 h-full pb-50">
+        <main className="flex-1 flex flex-col items-center gap-20 mx-1.5 h-full pb-25">
             <header className="flex justify-center items-center w-full mt-12">
                 <h2 className="text-(--main-title) text-4xl font-semibold">{t('events.title')}</h2>
             </header>

@@ -19,6 +19,7 @@ android/app/release
 android/app/google-services.json
 android/local.properties
 resources
+events.json
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

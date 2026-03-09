@@ -36,7 +36,7 @@ function Home() {
 
     return (
         <>
-            <main className="flex flex-col justify-center gap-20 pb-20 mx-1.5">
+            <main className="flex flex-col gap-20 pb-20 mx-1.5 flex-1">
                 <header className="flex justify-center gap-4 items-center w-full mt-12">
                     <h1 className="text-(--main-title) text-7xl font-semibold">GABBA</h1>
                     <img className="w-30 " src={appIcon} />

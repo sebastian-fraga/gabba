@@ -19,13 +19,13 @@ function Sponsors() {
 
 
     return (
-        <main className="flex flex-col gap-25 mx-1.5 h-full pb-7">
+        <main className="flex-1 flex flex-col items-center gap-15 mx-1.5 pb-7">
             <header className="flex justify-center gap-4 items-center w-full mt-12">
-                <h2 className="text-(--main-title) text-4xl font-semibold">{t('sponsors.title')}</h2>
+                <h2 className="text-(--main-title) text-4xl font-semibold text-center">{t('sponsors.title')}</h2>
             </header>
 
-            <section className="flex flex-col mx-5 gap-2">
-                <h3 className="text-(--main-text) text-center text-lg font-semibold leading-7 text-balance">
+            <section className="flex flex-col mx-5 gap-2 pb-30">
+                <h3 className="text-(--main-text) text-center text-base font-semibold leading-7.5 text-balance">
                     {t('sponsors.description')}
                 </h3>
 

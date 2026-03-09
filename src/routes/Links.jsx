@@ -59,7 +59,7 @@ function Links() {
         },
     ]
     return (
-        <main className="flex flex-col justify-between gap-50 mx-1.5 h-full pb-50">
+        <main className="flex-1 flex flex-col justify-between gap-50 mx-1.5 h-full pb-50">
             <header className="flex justify-center gap-4 items-center w-full mt-12">
                 <h2 className="text-(--main-title) text-4xl font-semibold">{t('links.title')}</h2>
             </header>

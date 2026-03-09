@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 function PastEvent({ imagen, lugar, fecha, nombre, descripcion, videoResumen, galeria, creditos }) {
 
     return (
-        <article className="rounded-2xl flex flex-col w-90 max-w-md bg-lime-50/95 p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <article className="rounded-2xl flex flex-col w-100 max-w-md bg-lime-50/95 p-5 shadow-lg hover:shadow-xl transition-shadow duration-300">
 
             <div className="relative overflow-hidden rounded-xl mb-4 shadow-lg shadow-black">
                 <img

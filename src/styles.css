@@ -9,7 +9,7 @@
     --main-text: #f8fafc;
     --footer-text: #efefef44;
     --secondary-text: #171717;
-    --nav-bg-from: #000000bf;
+    --nav-bg-from: rgba(0, 0, 0, 0.5);
     --nav-bg-to: #000000;
     --nav-active: #fff;
     --nav-active-shadow: 0 0 6px #ffffffb3;
@@ -25,10 +25,10 @@
     --main-text: #171717;
     --footer-text: #2525255d;
     --secondary-text: #f8fafc;
-    --nav-bg-from: #e4dfdf80;
+    --nav-bg-from: rgba(228, 223, 223, 0.4);
     --nav-bg-to: #e4dfdf;
-    --nav-active: #000;
-    --nav-active-shadow: 0 0 6px rgba(0, 0, 0, 0.395);
+    --nav-active: #1d1d1d;
+    --nav-active-shadow: 0 0 15px rgba(99, 255, 112, 0.8);
     --carousel-bg: rgba(153, 230, 0, 0.4);
     --carousel-border: rgba(153, 230, 0, 0.7);
     --carousel-search: rgb(247, 254, 231);
@@ -38,8 +38,9 @@
 body {
     font-family: "Inter";
     background: var(--bg);
-    overflow-x: hidden;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     -webkit-tap-highlight-color: transparent;
     user-select: none;
 }
@@ -170,3 +171,8 @@ body {
 .animate-fadeIn {
     animation: fadeIn 0.3s ease-out forwards;
 }
+
+nav > * {
+    -webkit-user-drag: none;
+}
+

@@ -9,7 +9,7 @@ function Nav() {
     const { t } = useTranslation();
 
     return (
-        <nav className="flex justify-center items-center gap-3 fixed bottom-0 w-screen py-4 px-7 bg-linear-180 from-(--nav-bg-from) to-(--nav-bg-to) text-2xl rounded-t-2xl backdrop-blur-xl z-1000">
+        <nav className="flex justify-center items-center gap-3 fixed bottom-0 w-screen py-4 px-7 bg-linear-180 from-(--nav-bg-from) to-(--nav-bg-to) text-2xl rounded-t-2xl backdrop-blur-xl z-1000 border-t border-(--main-text)/10">
             <NavLink to="/events"
                 className={({ isActive }) => `${base} ${isActive ? active : inactive}`
                 }
